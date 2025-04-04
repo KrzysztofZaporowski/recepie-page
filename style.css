@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 550px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.omelette-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+ol, ul{
+    list-style-position: outside;
+    padding-left: 1.5rem;
+    text-indent: 0;
+}
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+.intro h2 {
+    color: hsl(24, 5%, 18%);
+    font-size: 35px;;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px auto;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    color: hsl(30, 10%, 34%);;
+}
+.preparation h2{
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+}
+.preparation ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.ingredients, ul {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+.ingredients, h2, ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;;
+}
+.instructions {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}  
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0 10px; /* odstęp między wierszami */
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+}
+.nutrition td {
+    padding: 10px 30px;
+}
+.nutrition td:first-child {
+    color: hsl(30, 10%, 34%);
+}
+  
+.nutrition td:last-child {
+    color: hsl(14, 45%, 36%);
+}
+.nutrition tr:not(:last-child) {
+    border-bottom: 0.5px solid hsl(30, 10%, 34%);
+}
